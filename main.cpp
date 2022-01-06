@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
 
     std::cout << argv[1] << '\n';
     std::fstream ifs(argv[1]);
-    std::cout << ifs.rdbuf() << '\n\n';
+    std::cout << ifs.rdbuf() << '\n';
 
     return 0;
 }
